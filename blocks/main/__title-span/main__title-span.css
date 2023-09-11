@@ -1,0 +1,4 @@
+.main__title-span {
+    transition: opacity .325s ease-out;
+    opacity: .95;
+}

@@ -1,0 +1,19 @@
+.header__logo-decoration {
+    position: absolute;
+    width: 40px;
+    top: 2.25px;
+    left: -4.75px;
+}
+
+@media screen and (max-width: 468px) {
+    .header__logo-decoration {
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .header__logo-decoration {
+        left: -5px;
+        width: 10vw;
+    }
+}

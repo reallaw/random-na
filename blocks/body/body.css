@@ -1,0 +1,7 @@
+.body {
+    font-family: 'Inter', Arial, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: var(--ui-bg);
+}

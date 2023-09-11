@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Н.А.</title>
+    <meta name="keywords" content="Натаван Алимовна, 1200, Школа Новокосино, Новокосино, Школа 1200, Рандом школа">
+    <meta name="content" content="Егор К.">
+    <meta name="language" content="Russian">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0"> 
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="icon" href="./images/favicon.svg">
+</head>
+<body class="body">
+        <div class="page">
+            <header class="header">
+                <a class="header__link" href="#">
+                    <img src="./images/favicon.svg" alt="Лого" class="header__logo">
+                    <!-- <img src="./images/shapka-new-year.svg" class="header__logo-decoration"> -->
+                </a>
+                    <div class="header__wrapper">
+                        <ul class="header__list">
+                            <li class="header__list-item"><a class="header__list-link" href="https://math-natavan.com">Главная</a> /</li>
+                            <li class="header__list-item"><a class="header__list-link" href="https://random.math-natavan.com">Рандом</a> /</li>
+                            <li class="header__list-item"><a class="header__list-link" href="#">F.A.Q.</a></li>
+                        </ul>
+                        <h1 class="header__title">Сайт Н. А.</h1>
+                    </div>
+            </header>
+            <main class="main">
+                <h1 class="main__title">Рандом <span class="main__title-span">8 "Д"</span></h1>
+                <p class="main__paragraph">Введите класс (цифра и буква):</p>
+                <input class="main__input" id="selectClass" type="text" placeholder="8 Д" value="8 Д" name="ignoreNums">
+                <p class="main__paragraph">Введите номера отсутствующих (пробел):</p>
+                <input class="main__input" id="ignoreNumsInput" type="text" placeholder="1 2 3" value="" name="ignoreNums">
+                <div class="main__wrapper">
+                    <input class="main__checkbox" id="repeatNumsCheckbox" type="checkbox" value="0" name="repeatNums" checked>
+                    <label class="main__label" for="repeatNums" id="checkboxLabel">Исключить повторения</label>
+                </div>
+                <p class="main__paragraph">Результат:</p>
+                <div class="main__result-overlay">
+                    <h2 class="main__result">Иванов Вячеслав (1)</h2>
+                    <img class="main__cursor main__cursor_hidden" src="./images/cursor.gif">
+                </div>
+                <button class="main__button" id="generateBtn" style="">Сгенерировать</button>
+                </a>
+            </main>
+
+            <footer class="footer">
+                <p class="footer__author">&copy; 2022 - 2023</p>
+                <ul class="footer__list">
+                    <p class="footer__list-item"><a class="footer__link" href="https://math-natavan.com">Главная</a> /</p>
+                    <p class="footer__list-item"><a class="footer__link"href="https://random.math-natavan.com">Рандом</a> /</p>
+                    <p class="footer__list-item"><a class="footer__link">F.A.Q.</a></p>
+                </ul>
+            </footer>
+
+        </div>
+
+        <audio id="error-sound" src="./sounds/error.mp3" style="display: none;"></audio>
+        <audio id="notification-sound" src="./sounds/notification.mp3" style="display: none;"></audio>
+
+        <script src="./scripts/students5Ж.js"></script>
+        <script src="./scripts/students6Е.js"></script>
+        <script src="./scripts/students6Ж.js"></script>
+        <script src="./scripts/students7И.js"></script>
+        <script src="./scripts/students8Д.js"></script>
+        <script src="./scripts/students10Б.js"></script>
+        <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
+        <script src="./scripts/index.js"></script>
+</body>
+</html>

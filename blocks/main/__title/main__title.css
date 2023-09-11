@@ -1,0 +1,12 @@
+.main__title {
+    color: var(--ui-title);
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+@media screen and (Max-width: 568px) {
+    .main__title {
+        font-size: 34px;
+    }
+}

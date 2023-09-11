@@ -1,0 +1,13 @@
+.footer__logo {
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+}
+
+@media screen and (Max-width: 568px) {
+    .footer__logo {
+        height: 22px;
+        width: 22px;
+        background-size: cover;
+    }
+}

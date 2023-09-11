@@ -1,0 +1,6 @@
+.footer__author {  
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--ui-text);
+    opacity: .95;
+}

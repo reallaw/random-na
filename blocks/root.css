@@ -1,0 +1,9 @@
+:root {
+    --ui-bg: #212121;
+    --ui-title: #E1E3E6;
+    --ui-text: #E1E3E6;
+    --ui-checkbox: #E1E3E6;
+    --ui-checkbox-checked: #529EF4;
+    --ui-result: #E1E3E6;
+    --ui-accent: #529EF4; 
+}

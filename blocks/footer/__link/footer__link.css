@@ -1,0 +1,39 @@
+.footer__link {
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    text-decoration: underline;
+    border-radius: 5px;
+    text-decoration-color: rgba(255, 255, 255, 0);
+    color: var(--ui-accent);
+    transition: opacity .275s linear, text-decoration-color .275s linear;
+    width: fit-content;
+    padding: 0 0 4px 0;
+}
+
+.footer__link[href="https://vk.com/math_na"] {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 3.25px;
+}
+
+
+.footer__link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transform: scaleX(0);
+    height: 2.25px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--ui-accent);
+    transition: opacity .325s ease-out, transform .275s ease-out;
+}
+
+.footer__link:hover::after {
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: сenter;
+}

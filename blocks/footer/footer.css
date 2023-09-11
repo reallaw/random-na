@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 32px;
+    display: grid;
+    align-items: center;
+    z-index: 5;
+}
+
+@media screen and (max-width: 568px) {
+    .footer {
+        margin-top: 24px;
+        grid-template-columns: repeat(1, max-content);
+    }
+}

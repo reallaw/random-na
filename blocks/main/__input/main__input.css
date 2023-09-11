@@ -1,0 +1,26 @@
+.main__input {
+    border: 0;
+    outline: 0;
+    padding: 2px;
+    color: var(--ui-text);
+    font-size: 22px;
+    text-align: center;
+    background-color: transparent;
+    font-family: inherit;
+    justify-self: center;
+    height: fit-content;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 8px;
+    transition: box-shadow .225s linear, transform .225s linear;
+}
+
+.main__input:focus {
+    box-shadow: 0px 0px 0px 3px var(--ui-accent), 0px 0px 8.75px var(--ui-accent);
+}
+
+@media screen and (max-width: 468px) {
+    .main__input {
+        font-size: 18px;
+    }
+}

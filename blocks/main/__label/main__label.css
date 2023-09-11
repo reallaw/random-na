@@ -1,0 +1,5 @@
+.main__label {
+    color: var(--ui-text);
+    cursor: pointer;
+    transition: transform .05s ease-out, opacity .25s ease-out;
+}

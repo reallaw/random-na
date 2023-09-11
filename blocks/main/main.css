@@ -1,0 +1,17 @@
+.main {
+    flex-grow: 1;
+    margin-top: 32px;
+    flex: 1 0 auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9, max-content);
+    row-gap: 16px;
+    z-index: 5;
+}
+
+@media screen and (max-width: 568px) {
+    .main {
+        margin-top: 28px;
+    }
+}

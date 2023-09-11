@@ -1,0 +1,6 @@
+.footer__list-item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.45;
+    color: var(--ui-text);
+}

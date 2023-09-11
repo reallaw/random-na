@@ -1,0 +1,15 @@
+.main__paragraph {
+    color: var(--ui-text);
+    height: max-content;
+    justify-self: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    max-width: 768px;
+}
+
+@media screen and (Max-width: 768px) {
+    .main__paragraph {
+        font-size: 18px;
+    }
+}

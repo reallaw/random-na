@@ -1,0 +1,19 @@
+.popup__wrapper {
+    position: relative;
+    z-index: 75;
+    width: 430px;
+    min-width: 282px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 36px;
+    max-width: 358px;
+}
+
+@media screen and (max-width: 470px) {
+    .popup__wrapper {
+        box-sizing: border-box;
+        padding: 25px 22px;
+        max-width: 282px;
+    }
+}

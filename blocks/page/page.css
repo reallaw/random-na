@@ -1,0 +1,11 @@
+.page {
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-width: 1280px;
+    background-color: var(--ui-bg);
+    font-family: 'Inter', 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.header__list {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 8px;
+}
+
+@media screen and (max-width: 568px) {
+    .header__list {
+        display: none;
+    }
+}

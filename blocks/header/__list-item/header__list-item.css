@@ -1,0 +1,13 @@
+.header__list-item {
+    color: var(--ui-text);
+    opacity: .95;
+    font-weight: 400;
+    font-size: 18px;
+    width: max-content;
+}
+
+@media screen and (max-width: 768px) {
+    .header__list-item {
+        font-size: 18px;
+    }
+}

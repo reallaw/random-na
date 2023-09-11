@@ -1,0 +1,11 @@
+.header__link {
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    color: var(--ui-text);
+    transition: opacity .275s ease-out;
+}
+
+.header__link:hover {
+    opacity: .725;
+}
